@@ -1,0 +1,270 @@
+html {
+	font-size: 16px;
+}
+
+.header {
+	background-color: #e9ecef;
+	padding: 1rem 0 2rem 0;
+	margin-bottom: 1.5rem;
+}
+
+.info-img > img {
+	width: 100%;
+	height: 100%;
+	max-height: 220px;
+	max-width: 220px;
+	-moz-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+}
+
+.info-img img:hover{
+	-webkit-transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	-o-transform: scale(1.02);
+}
+
+.info a {
+	/*display: block;*/
+	/*color: rgba(255,255,255,.8);*/
+	color: rgba(0,0,0,.5);
+	/*background: rgba(0,0,0,.7);*/
+	border-radius: 5px;
+	/*padding: 3px;*/
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+.info a:hover {
+	/*text-decoration: none;*/
+	/*color: rgba(255,255,255,.8);*/
+	/*background: rgba(0,0,0,.9);*/
+}
+
+.img-container {
+	overflow: hidden;
+	position: relative;
+}
+
+.img-view {
+	-webkit-transition: -webkit-transform 0.15s ease 0s;
+	-moz-transition: -moz-transform 0.15s ease 0s;
+	-o-transition: -o-transform 0.15s ease 0s;
+	transition: transform 0.15s ease 0s;
+	-webkit-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
+	height: 100%;
+	width: 100%;
+}
+
+.img-view:hover {
+	-webkit-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+}
+
+.bolder {
+	font-weight: bold;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: rgba(0,0,0,0);
+	margin-right: -15px;
+}
+
+@media (max-width: 991px){
+	.social {
+		text-align: center;
+	}
+	.social a {
+		margin: 0px 5px;
+		font-size: 1.2rem;
+	}
+	.header .info-img {
+		margin-bottom: 1rem;
+	}
+	h2.name {
+		text-align: center;
+	}
+	.info {
+		text-align: center;
+	}
+	p.lead {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width:768px) and (max-width: 991px){
+	.info-img > img {
+		max-width: 200px;
+		max-height: 200px;
+	}
+}
+
+.shadow-sm {
+	transition: all 0.3s ease-out 0s;
+}
+
+.shadow-sm:hover {
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.animate {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.social {
+	list-style: none;
+	padding: 0;
+	/*margin-top: 25px;*/
+	/*text-align: center;*/
+}
+
+.social a {
+	position: relative;
+	/*display: inline-block;*/
+	margin: 0px 2px;
+	overflow: hidden;
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+}
+
+a.social-icon {
+	text-decoration: none !important;
+/*	box-shadow: 0px 0px 1px rgb(51, 51, 51);
+	box-shadow: 0px 0px 1px rgba(51, 51, 51, 0.7);*/
+	padding: 0.8rem;
+	border-radius: 50%;
+	background-color: rgb(255, 255, 255);
+}
+a.social-icon:hover {
+	color: rgb(255, 255, 255) !important;
+}
+a.vk {
+	color: rgb(76,117,163) !important;
+}
+a.vk:hover {		
+	background-color: rgb(76,117,163) !important;
+}
+
+a.facebook {
+	color: rgb(59, 90, 154) !important;
+}
+a.facebook:hover {		
+	background-color: rgb(59, 90, 154) !important;
+}
+
+a.twitter {
+	color: rgb(45, 168, 225) !important;
+}
+a.twitter:hover {
+	background-color: rgb(45, 168, 225) !important;
+}
+a.github {
+	color: rgb(51, 51, 51) !important;
+}
+a.github:hover {
+	background-color: rgb(51, 51, 51) !important;
+}
+a.google-plus {
+	color: rgb(244, 94, 75) !important;
+}
+a.google-plus:hover {
+	background-color: rgb(244, 94, 75) !important;
+}
+a.linkedin {
+	color: rgb(1, 116, 179) !important;
+}
+a.linkedin:hover {
+	background-color: rgb(1, 116, 179) !important;
+}
+a.email {
+	color: rgb(51, 51, 51) !important;
+}
+a.email:hover {
+	background-color: rgb(51, 51, 51) !important;
+}
+
+/* --------- COLORS ------- */
+
+.bg-mcolor {
+	background-color: #e9ecef;
+}
+
+
+/* --------- ---------- */
+
+.card {
+	font-size: 1em;
+	overflow: hidden;
+	padding: 0;
+	border: none;
+	border-radius: .28571429rem;
+	box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+}
+
+.card-block {
+	font-size: 1em;
+	position: relative;
+	margin: 0;
+	padding: 1em;
+	border: none;
+	border-top: 1px solid rgba(34, 36, 38, .1);
+	box-shadow: none;
+}
+
+.card-img-top {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.card-title {
+	font-size: 1.28571429em;
+	font-weight: 700;
+	line-height: 1.2857em;
+}
+
+.card-text {
+	clear: both;
+	margin-top: .5em;
+	color: rgba(0, 0, 0, .68);
+}
+
+.card-footer {
+	font-size: 1em;
+	position: static;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	padding: .75em 1em;
+	color: rgba(0, 0, 0, .4);
+	border-top: 1px solid rgba(0, 0, 0, .05) !important;
+	background: #fff;
+}
+
+.card-inverse .btn {
+	border: 1px solid rgba(0, 0, 0, .05);
+}
+
+.text-bold {
+	font-weight: 700;
+}
+
+.meta {
+	font-size: 1em;
+	color: rgba(0, 0, 0, .4);
+}
+
+.meta a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, .4);
+}
+
+.meta a:hover {
+	color: rgba(0, 0, 0, .87);
+}
